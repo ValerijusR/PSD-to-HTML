@@ -1,8 +1,76 @@
 body {
-    background-color: red;
-    font-family: 'Roboto';
-    text-align: center;
+    background-color: white;
+    
 }
 .container{
-    max-width: 
+    max-width: 1000px;
+    margin:auto;
+    max-width: 1100px;
+    text-align: center;
+   background-image: url('../img/foto1.jpg');
+    height: 600px;
+     color: white;
+    
+     
+    
+    
+}
+selection .landing-page{
+    height: 100vh;
+    background-color: white;
+    line-height:2;
+     color: white;
+     
+  
+}
+
+
+.logo{
+    float: left;
+    height: 60px;
+    margin-left: 200px;
+    margin-top: 15px;
+}
+ul{
+    float: right;
+    color: white;
+   
+}
+li{
+    display: inline-block;
+    color: white;
+    line-height: 56px;
+    margin-right: 20px;
+        
+    
+   
+}
+.clearfix:after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.wrapper{
+    color: white;
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translateY(-50%);
+}
+    .wrapper h2{
+        font-size: 120px;
+        text-align: center;
+    }
+   .wrapper h1{
+        font-size: 23px;
+        text-align: center;
+       color:#11749e;
+    }
+.button{
+    width: 65px;
+    height: 62px;
+    
+    
 }
